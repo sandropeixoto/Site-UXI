@@ -1,0 +1,6 @@
+{
+  "name": "UXI Pesquisas - Sistema de Pesquisa Digital",
+  "description": "Site institucional e plataforma da UXI Pesquisas: pesquisas digitais eleitorais, de opinião pública e de mercado com tecnologia avançada e geolocalização no Brasil.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
