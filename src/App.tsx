@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { SEO } from './components/SEO';
 import { Navbar } from './components/Navbar';
 import { Hero } from './components/Hero';
 import { Services } from './components/Services';
@@ -19,6 +20,7 @@ export default function App() {
 
   return (
     <div className="min-h-screen bg-[#0a0f1e] text-slate-100 selection:bg-emerald-500/30 selection:text-emerald-300 font-sans">
+      <SEO />
       {/* Sticky Glass Navbar */}
       <Navbar onOpenSpecialist={() => setSpecialistModalOpen(true)} />
 

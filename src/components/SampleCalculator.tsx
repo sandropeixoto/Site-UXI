@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { motion } from 'motion/react';
+import { Helmet } from 'react-helmet-async';
 import {
   Calculator,
   Sparkles,
@@ -51,6 +52,9 @@ export const SampleCalculator: React.FC<SampleCalculatorProps> = ({
 
   return (
     <section id="simulador" className="py-24 relative bg-[#0a0f1e] overflow-hidden">
+      <Helmet>
+        <meta name="keywords" content="Simulador de Amostra, Pesquisa Eleitoral, Tamanho Amostral, Calculadora Estatística, Margem de Erro, Nível de Confiança, Economia de Pesquisa" />
+      </Helmet>
       {/* Background Section Glows */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-emerald-950/20 rounded-full blur-[160px] pointer-events-none" />
 
